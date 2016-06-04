@@ -1,5 +1,6 @@
 require 'sinatra'
 require 'erb'
+require 'time'
 
 get '/' do
   erb :index
